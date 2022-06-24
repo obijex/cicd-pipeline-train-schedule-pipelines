@@ -7,5 +7,6 @@ pipeline {
         sh './gradlew build --no-daemon'
         archicheArtifacts artifacts: 'dist/trainSchedule.zip'
       }
+      }
   }
 }
